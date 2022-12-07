@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  font-family: $font-family-sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: rgb(173, 168, 167);
+  color: $corporate;
+  @media (min-width: $mqMaxWidth) {
+    font-size: 20px;
+  }
+}
+.contenedor {
+  display: flex;
+  //justify-content: flex-start;
+  flex-direction: column;
+  font: $font;
+}
+.contenedor-fila {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: auto;
+}
+.title {
+  font-family: $font-family-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: $corporate;
+  align-self: center;
+  @media (min-width: $mqMinWidth) {
+    font-size: 36px;
+  }
+}
+.box-head1 {
+  flex-basis: 350px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 5px;
+}
+.box-head2 {
+  flex-basis: 350px;
+  flex-grow: 10;
+  flex-shrink: 8;
+  align-content: center;
+  padding: 5px;
+  @media (min-width: $mqMaxWidth) {
+    //max-width: 50%;
+  }
+}
+.subtitulo {
+  color: black;
+  font-family: $font;
+  height: auto;
+}
+.box {
+  width: 150px;
+  padding: 5px;
+  margin: 5px;
+}
+.Derecho {
+  background-color: $corporate;
+  border: 3px solid $corporate;
+}
+.Economia {
+  background-color: orangered;
+  border: 3px solid orangered;
+}
+.Medicina {
+  background-color: $masterbrand;
+  border: 3px solid $masterbrand;
+}
+h2 {
+  //text-decoration-line: underline;
+  //line-height: 15px;
+  //font-weight: bold;
+  background-color: $corporate;
+  //color: black;
+}
+article {
+  color: black;
+}
